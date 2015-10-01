@@ -1,8 +1,71 @@
 <html>
     <head>
         
+<!--   bootstrap and material design css files here     -->
+        
+        <link rel="stylesheet" type="text/css" href="source/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="source/css/material.min.css">
+        <link rel="stylesheet" type="text/css" href="source/css/material-fullpalette.min.css">
+        <link rel="stylesheet" type="text/css" href="source/css/ripples.min.css">
+        <link rel="stylesheet" type="text/css" href="source/css/roboto.min.css">
+        <link rel="stylesheet" type="text/css" href="source/css/mystyle.css">
+        
+        
     </head>
     <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-9">
+                    <div class="card">
+                        <div class="card-height-indicator"></div>
+
+                        <div class="card-content">
+                            <div class="card-image">
+                                <img src="09192015205.jpg" alt="Loading image...">
+                                <h3 class="card-image-headline">SQL Server Mastery</h3>
+                            </div>
+
+                            <div class="card-body">
+                                <p>Hahahahahaha
+                                </p>
+                            </div>
+                            
+                            <footer class="card-footer">
+                                <button class="btn btn-raised btn-material-blue">Share</button>
+                                <button class="btn btn-raised btn-warning">Learn More</button>
+                            </footer>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--            <button class="btn btn-raised btn-material-deep-purple">Ripple effect</button>-->
+        </div>
+        
+<!--   bootstrap and material design scripts here     -->
+        <script src="source/js/jquery.js"></script>
+        <script src="source/js/jquery.dropdown.js"></script>
+        <script src="source/js/bootstrap.min.js"></script>
+        <script src="source/js/material.min.js"></script>
+        <script src="source/js/ripples.min.js"></script>
+        
+<!--    initialization of ripples and material design    -->
+        
+        <script>
+            
+            $(document).ready(function() {
+                
+                $.material.ripples();
+                $.material.init();
+                $.material.input();
+                $.material.checkbox();
+                $.material.radio();
+                
+            });
+                
+        </script>
         
     </body>
 </html>
